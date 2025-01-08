@@ -9,10 +9,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 </head>
-<body>
+<body class="bg-dark text-bg-dark">
     <!-- navbar  -->
     <nav class="container-fluid navbar navbar-expand-sm bg-light sticky-top">
-        <a id="shop" href=""><i class="fa-solid fa-cart-shopping text-black mx-5"></i></a>
+        <a id="shop" href="cart.html"><i class="fa-solid fa-cart-shopping text-black mx-5"></i></a>
         <div class="navbar-brand">
           <a class="nav-link text-bg-dark mx-3" href="index.html">AMIR <span class="text-bg-light">FAISAL</span></a>
         </div>
@@ -44,9 +44,74 @@
           </div>
         </div>
       </nav>
-      
+      <!-- Hero Section -->
+  <div class="heroa-section">
+    <h1>Contact Us</h1>
+    <p>Have questions or need help? Get in touch with us today!</p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Contact Information -->
+      <div class="col-md-6 mb-4">
+        <h2 class="mb-4">Get in Touch</h2>
+        <p>If you have any questions, feedback, or concerns, feel free to reach out to us. We’d love to hear from you!</p>
+        <ul class="list-unstyled">
+          <li><strong>Email:</strong> support@shopsphere.com</li>
+          <li><strong>Phone:</strong> +1 234 567 890</li>
+          <li><strong>Address:</strong> 123 E-Commerce Street, Online City, World</li>
+        </ul>
+        <div class="col-lg-4 mb-4">
+          <h5 class="text-uppercase fw-bold">Follow Us</h5>
+          <div class="d-flex">
+            <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <div class="contact-form text-black">
+          <h2 class="mb-4 ">Send Us a Message</h2>
+          <form action="#" method="POST">
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter the subject">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Your Message</label>
+              <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-custom btn-dark">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Google Map -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Our Location</h2>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.529891561685!2d-122.41941648468072!3d37.774929779759056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064c2e5f2d1%3A0x104c92e3d7de336e!2sE-Commerce%20HQ!5e0!3m2!1sen!2sus!4v1683720000000!5m2!1sen!2sus"
+        width="100%" height="450" style="border: 1px solid white; padding: 10px;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
       <!-- footer  -->
-      <footer class="footer bg-dark text-white pt-5 pb-4">
+      <footer class="footer text-white pt-5 pb-4">
         <div class="container">
           <div class="row">
             <!-- Company Info -->
