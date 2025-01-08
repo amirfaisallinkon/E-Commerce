@@ -1,34 +1,34 @@
 @media(min-width:1200px){
-    .hero{
+    .heroh{
         height: 100vh;
     }
 }
 @media(max-width:1050px){
-    .hero img{
+    .heroh img{
         height: 400px;
 
     }
 }
 @media(max-width:800px){
-    .hero{
+    .heroh{
         flex-direction: column;
 
     }
-    .hero-info{
+    .heroh-info{
         text-align: center;
         margin: 30px auto;
         width: auto;
     }
-    .hero-info .btn{
+    .heroh-info .btn{
         align-self: center;
     }
 }
 @media(max-width:450px){
-    .hero-info{
+    .heroh-info{
         padding: 0;
         width: auto;
     }
-    .hero img{
+    .heroh img{
       height: 300px;
     }
 }
